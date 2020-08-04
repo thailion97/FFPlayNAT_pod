@@ -38,8 +38,8 @@
 
 /* Begin PBXFileReference section */
 		066F5BDA1B054D7063B77C3E /* Pods-FFPlayNAT_pod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFPlayNAT_pod_Example.debug.xcconfig"; path = "Target Support Files/Pods-FFPlayNAT_pod_Example/Pods-FFPlayNAT_pod_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		464250F7FE9833DDBE9173BE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		5F14081FE3F2206EE319A6A1 /* FFPlayNAT_pod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FFPlayNAT_pod.podspec; path = ../FFPlayNAT_pod.podspec; sourceTree = "<group>"; };
+		464250F7FE9833DDBE9173BE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5F14081FE3F2206EE319A6A1 /* FFPlayNAT_pod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FFPlayNAT_pod.podspec; path = ../FFPlayNAT_pod.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* FFPlayNAT_pod_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FFPlayNAT_pod_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,7 +63,7 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8AF03E74202806A82FFA3ADF /* Pods-FFPlayNAT_pod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFPlayNAT_pod_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FFPlayNAT_pod_Tests/Pods-FFPlayNAT_pod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B7BEA663B8EEB6DBCE56FEAD /* Pods-FFPlayNAT_pod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFPlayNAT_pod_Tests.release.xcconfig"; path = "Target Support Files/Pods-FFPlayNAT_pod_Tests/Pods-FFPlayNAT_pod_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D215D1AE662E8831080A59C5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D215D1AE662E8831080A59C5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D36E504EE2E0736C2D470E15 /* Pods_FFPlayNAT_pod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFPlayNAT_pod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EECD0101558E47011669C204 /* Pods_FFPlayNAT_pod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFPlayNAT_pod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDB9C71FD225A6E41B08DC0E /* Pods-FFPlayNAT_pod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFPlayNAT_pod_Example.release.xcconfig"; path = "Target Support Files/Pods-FFPlayNAT_pod_Example/Pods-FFPlayNAT_pod_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -193,7 +193,6 @@
 				8AF03E74202806A82FFA3ADF /* Pods-FFPlayNAT_pod_Tests.debug.xcconfig */,
 				B7BEA663B8EEB6DBCE56FEAD /* Pods-FFPlayNAT_pod_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -205,10 +204,12 @@
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "FFPlayNAT_pod_Example" */;
 			buildPhases = (
 				451A2ABFA768597B4663702A /* [CP] Check Pods Manifest.lock */,
+				735A27B1641FCEC438D98CA6 /* [CP] Prepare Artifacts */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				7B78B571C2877849317BEEED /* [CP] Embed Pods Frameworks */,
+				1C9AB79DA613F520F5BAC269 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,9 +246,12 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = FF;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 1160;
 				ORGANIZATIONNAME = thailion97;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 5AXALPLT3Z;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -255,7 +259,7 @@
 			};
 			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "FFPlayNAT_pod" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -295,6 +299,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1C9AB79DA613F520F5BAC269 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FFPlayNAT_pod_Example/Pods-FFPlayNAT_pod_Example-resources.sh",
+				"${PODS_ROOT}/../../FFPlayNAT_pod/Assets/FFPlayNAT_bundle.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FFPlayNAT_pod/FFPlayNAT_pod.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FFPlayNAT_bundle.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FFPlayNAT_pod.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FFPlayNAT_pod_Example/Pods-FFPlayNAT_pod_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		21EC467A2481F66C79078C62 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -339,6 +363,70 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		735A27B1641FCEC438D98CA6 /* [CP] Prepare Artifacts */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FFPlayNAT_pod_Example/Pods-FFPlayNAT_pod_Example-artifacts.sh",
+				"${PODS_ROOT}/mobile-ffmpeg-full/mobileffmpeg.xcframework",
+				"${PODS_ROOT}/mobile-ffmpeg-full/libavcodec.xcframework",
+				"${PODS_ROOT}/mobile-ffmpeg-full/libavdevice.xcframework",
+				"${PODS_ROOT}/mobile-ffmpeg-full/libavfilter.xcframework",
+				"${PODS_ROOT}/mobile-ffmpeg-full/libavformat.xcframework",
+				"${PODS_ROOT}/mobile-ffmpeg-full/libavutil.xcframework",
+				"${PODS_ROOT}/mobile-ffmpeg-full/libswresample.xcframework",
+				"${PODS_ROOT}/mobile-ffmpeg-full/libswscale.xcframework",
+				"${PODS_ROOT}/mobile-ffmpeg-full/expat.xcframework",
+				"${PODS_ROOT}/mobile-ffmpeg-full/fontconfig.xcframework",
+				"${PODS_ROOT}/mobile-ffmpeg-full/freetype.xcframework",
+				"${PODS_ROOT}/mobile-ffmpeg-full/fribidi.xcframework",
+				"${PODS_ROOT}/mobile-ffmpeg-full/giflib.xcframework",
+				"${PODS_ROOT}/mobile-ffmpeg-full/gmp.xcframework",
+				"${PODS_ROOT}/mobile-ffmpeg-full/gnutls.xcframework",
+				"${PODS_ROOT}/mobile-ffmpeg-full/jpeg.xcframework",
+				"${PODS_ROOT}/mobile-ffmpeg-full/kvazaar.xcframework",
+				"${PODS_ROOT}/mobile-ffmpeg-full/lame.xcframework",
+				"${PODS_ROOT}/mobile-ffmpeg-full/libaom.xcframework",
+				"${PODS_ROOT}/mobile-ffmpeg-full/libass.xcframework",
+				"${PODS_ROOT}/mobile-ffmpeg-full/libhogweed.xcframework",
+				"${PODS_ROOT}/mobile-ffmpeg-full/libilbc.xcframework",
+				"${PODS_ROOT}/mobile-ffmpeg-full/libnettle.xcframework",
+				"${PODS_ROOT}/mobile-ffmpeg-full/libogg.xcframework",
+				"${PODS_ROOT}/mobile-ffmpeg-full/libopencore-amrnb.xcframework",
+				"${PODS_ROOT}/mobile-ffmpeg-full/libpng.xcframework",
+				"${PODS_ROOT}/mobile-ffmpeg-full/libsndfile.xcframework",
+				"${PODS_ROOT}/mobile-ffmpeg-full/libtheora.xcframework",
+				"${PODS_ROOT}/mobile-ffmpeg-full/libtheoradec.xcframework",
+				"${PODS_ROOT}/mobile-ffmpeg-full/libtheoraenc.xcframework",
+				"${PODS_ROOT}/mobile-ffmpeg-full/libvorbis.xcframework",
+				"${PODS_ROOT}/mobile-ffmpeg-full/libvorbisenc.xcframework",
+				"${PODS_ROOT}/mobile-ffmpeg-full/libvorbisfile.xcframework",
+				"${PODS_ROOT}/mobile-ffmpeg-full/libvpx.xcframework",
+				"${PODS_ROOT}/mobile-ffmpeg-full/libwebp.xcframework",
+				"${PODS_ROOT}/mobile-ffmpeg-full/libwebpmux.xcframework",
+				"${PODS_ROOT}/mobile-ffmpeg-full/libwebpdemux.xcframework",
+				"${PODS_ROOT}/mobile-ffmpeg-full/libxml2.xcframework",
+				"${PODS_ROOT}/mobile-ffmpeg-full/opus.xcframework",
+				"${PODS_ROOT}/mobile-ffmpeg-full/shine.xcframework",
+				"${PODS_ROOT}/mobile-ffmpeg-full/snappy.xcframework",
+				"${PODS_ROOT}/mobile-ffmpeg-full/soxr.xcframework",
+				"${PODS_ROOT}/mobile-ffmpeg-full/speex.xcframework",
+				"${PODS_ROOT}/mobile-ffmpeg-full/tiff.xcframework",
+				"${PODS_ROOT}/mobile-ffmpeg-full/twolame.xcframework",
+				"${PODS_ROOT}/mobile-ffmpeg-full/vo-amrwbenc.xcframework",
+				"${PODS_ROOT}/mobile-ffmpeg-full/wavpack.xcframework",
+			);
+			name = "[CP] Prepare Artifacts";
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/cocoapods-artifacts-${CONFIGURATION}.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FFPlayNAT_pod_Example/Pods-FFPlayNAT_pod_Example-artifacts.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		7B78B571C2877849317BEEED /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -346,11 +434,10 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-FFPlayNAT_pod_Example/Pods-FFPlayNAT_pod_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FFPlayNAT_pod/FFPlayNAT_pod.framework",
+				"${BUILT_PRODUCTS_DIR}/cocoapods-artifacts-${CONFIGURATION}.txt",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFPlayNAT_pod.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -424,19 +511,32 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -449,7 +549,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -464,25 +564,38 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -494,13 +607,16 @@
 			baseConfigurationReference = 066F5BDA1B054D7063B77C3E /* Pods-FFPlayNAT_pod_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5AXALPLT3Z;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FFPlayNAT_pod/FFPlayNAT_pod-Prefix.pch";
 				INFOPLIST_FILE = "FFPlayNAT_pod/FFPlayNAT_pod-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -510,13 +626,16 @@
 			baseConfigurationReference = FDB9C71FD225A6E41B08DC0E /* Pods-FFPlayNAT_pod_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5AXALPLT3Z;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FFPlayNAT_pod/FFPlayNAT_pod-Prefix.pch";
 				INFOPLIST_FILE = "FFPlayNAT_pod/FFPlayNAT_pod-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -1,0 +1,23 @@
+PODS:
+  - FFPlayNAT_pod (0.1.0):
+    - mobile-ffmpeg-full
+  - mobile-ffmpeg-full (4.4)
+
+DEPENDENCIES:
+  - FFPlayNAT_pod (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - mobile-ffmpeg-full
+
+EXTERNAL SOURCES:
+  FFPlayNAT_pod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FFPlayNAT_pod: 4b5683b27104630930ae538cf56642c568636b83
+  mobile-ffmpeg-full: 505c583d91ac1c4fb2b015787e69d83f83fb8f29
+
+PODFILE CHECKSUM: 2fcb7a86f9aef05d56c9e1cc10820e0f96b5e7df
+
+COCOAPODS: 1.9.3

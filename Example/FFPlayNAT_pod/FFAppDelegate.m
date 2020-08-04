@@ -7,12 +7,21 @@
 //
 
 #import "FFAppDelegate.h"
+#import <FFPlayNat/FFPlayNat.h>
 
 @implementation FFAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    FFPlayXIBViewController *mainViewController = [FFPlayXIBViewController shareInstanceWithLink:@"https://content.jwplatform.com/manifests/yp34SRmf.m3u8"];
+    // @"https://content.jwplatform.com/manifests/yp34SRmf.m3u8";
+    // [[NSBundle mainBundle] pathForResource:self.link ofType:nil];
+            // @"sintel_h264_aac.flv"
+
+    UINavigationController  *navController = [[UINavigationController alloc]initWithRootViewController: mainViewController];
+    self.window.rootViewController         = navController;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

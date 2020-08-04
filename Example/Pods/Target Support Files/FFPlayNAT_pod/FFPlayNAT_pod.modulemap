@@ -1,0 +1,6 @@
+framework module FFPlayNAT_pod {
+  umbrella header "FFPlayNAT_pod-umbrella.h"
+
+  export *
+  module * { export * }
+}

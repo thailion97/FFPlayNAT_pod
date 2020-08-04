@@ -1,0 +1,1028 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		7B618906479AA26AE21A655F81ED2750 /* FFPlayNAT_pod */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 440CACFDBBE76A740CCE51E6F82F4D73 /* Build configuration list for PBXAggregateTarget "FFPlayNAT_pod" */;
+			buildPhases = (
+			);
+			dependencies = (
+				B6A1BA2AEE7271805BE95C016C2AB67B /* PBXTargetDependency */,
+				5A3A5C6CAADA19389B815DBF30762CE1 /* PBXTargetDependency */,
+			);
+			name = FFPlayNAT_pod;
+			productName = FFPlayNAT_pod;
+		};
+		A4CF1A2B7EFA48AA7D1DFC45FA6B1E5C /* mobile-ffmpeg-full */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6F731C85EEB3819F70788A4850F3B9FC /* Build configuration list for PBXAggregateTarget "mobile-ffmpeg-full" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "mobile-ffmpeg-full";
+			productName = "mobile-ffmpeg-full";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		08BB5F79165A3E5E035DE83D6C8A5D7A /* Pods-FFPlayNAT_pod_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A887DBA4E835CE7847B2A82E7A5292E6 /* Pods-FFPlayNAT_pod_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CFB1C3B6C2EBB37A021FBDB8BEA65E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		57AA52D15CBE6EFC0A1044D15DFED66D /* Pods-FFPlayNAT_pod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DAEE391F5AED697A05AB2BD91E4BF26F /* Pods-FFPlayNAT_pod_Tests-dummy.m */; };
+		D683F57BD62A38FD378F833407CE56E6 /* Pods-FFPlayNAT_pod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD14BFD07D20E6A206949AE3C1D856A1 /* Pods-FFPlayNAT_pod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E025B89D97FA309BAB71071D6858A353 /* FFPlayNAT_bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4768780ECBFA630D8746839AB33C74B6 /* FFPlayNAT_bundle.bundle */; };
+		E8025913157D5BD00358F96C46CC791B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F9C93D4361C1CC33552301EC11F1772E /* Pods-FFPlayNAT_pod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99AEC2F024E092B49A4EACBB948E7DE8 /* Pods-FFPlayNAT_pod_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		172097E7549BAB3A656080477DF39087 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B618906479AA26AE21A655F81ED2750;
+			remoteInfo = FFPlayNAT_pod;
+		};
+		43EEDF4F697ACE9ACACA6ABBFF0498EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4CF1A2B7EFA48AA7D1DFC45FA6B1E5C;
+			remoteInfo = "mobile-ffmpeg-full";
+		};
+		48AE1B795EBB77EA7983761EA9FF4DD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAF1B12978712129FCE2CC1028CB5C1B;
+			remoteInfo = "FFPlayNAT_pod-FFPlayNAT_pod";
+		};
+		6B530C12E406BE5171E25F012C837F56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7210E7FBBD303166D3E6BD1DE5495DF;
+			remoteInfo = "Pods-FFPlayNAT_pod_Example";
+		};
+		CCE4034CDFA42351F73E4CAF2E33DAB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4CF1A2B7EFA48AA7D1DFC45FA6B1E5C;
+			remoteInfo = "mobile-ffmpeg-full";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0539A244EEDEE835EE93D940D0712FC3 /* freetype.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = freetype.xcframework; sourceTree = "<group>"; };
+		0A9AC4CECDBC951581BC1834F088ACD6 /* fontconfig.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = fontconfig.xcframework; sourceTree = "<group>"; };
+		0C0DA164AF30E1856F497BA7FBDAE4C6 /* gmp.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = gmp.xcframework; sourceTree = "<group>"; };
+		155248E0F8AD70CF5F3CF581666E25AF /* libass.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = libass.xcframework; sourceTree = "<group>"; };
+		16022083EF50406F0DB504346FACEAB6 /* libwebpdemux.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = libwebpdemux.xcframework; sourceTree = "<group>"; };
+		16810CE09B636F1B002C18207D35EB49 /* Pods-FFPlayNAT_pod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FFPlayNAT_pod_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1CA29A14588861F626E272BE1F4BE964 /* libnettle.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = libnettle.xcframework; sourceTree = "<group>"; };
+		21FE5734DD79094B2B3CB9B222E3FB71 /* libavutil.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = libavutil.xcframework; sourceTree = "<group>"; };
+		237F4818333B799968118C3F73536EB7 /* Pods-FFPlayNAT_pod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FFPlayNAT_pod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		240216EDD6FE32F9669DECDC990C2441 /* FFPlayNAT_pod.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FFPlayNAT_pod.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		261C725DDC9C2B20E52570C48DC166FB /* libopencore-amrnb.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = "libopencore-amrnb.xcframework"; sourceTree = "<group>"; };
+		284B1448C72B7B3750CA32672452F855 /* Pods-FFPlayNAT_pod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FFPlayNAT_pod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		29B453BE7892E17A91240393DE58F07E /* libhogweed.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = libhogweed.xcframework; sourceTree = "<group>"; };
+		2AD39D37E47780F79485989D484EBDD6 /* libvorbis.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = libvorbis.xcframework; sourceTree = "<group>"; };
+		2AFFC729466BE10B118140CC90125596 /* Pods-FFPlayNAT_pod_Example-artifacts-Debug-input-files.xcfilelist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcfilelist; path = "Pods-FFPlayNAT_pod_Example-artifacts-Debug-input-files.xcfilelist"; sourceTree = "<group>"; };
+		2F213E0DCFC12370A3F2A8367C47ABFE /* Pods-FFPlayNAT_pod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FFPlayNAT_pod_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2F65F40BD615CBC204823931182A3E01 /* libtheoraenc.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = libtheoraenc.xcframework; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3458E2F61FB9506C3A9FB93CA69E9F49 /* libavdevice.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = libavdevice.xcframework; sourceTree = "<group>"; };
+		3C2DC0499BFF48E847A34976576DB0DD /* libvpx.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = libvpx.xcframework; sourceTree = "<group>"; };
+		3CC8C89FC3D321D43B89D80C1A57DC86 /* Pods-FFPlayNAT_pod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FFPlayNAT_pod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3F42D5C191332C49F4428C05D24DB493 /* libvorbisfile.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = libvorbisfile.xcframework; sourceTree = "<group>"; };
+		40D481F32CAC538B3E8AC26EBA81B915 /* libsndfile.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = libsndfile.xcframework; sourceTree = "<group>"; };
+		4180DFBF6D0624F47B29DEFC5CFA677D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		42E7A7594397FF70315C5CDC7546F14B /* vo-amrwbenc.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = "vo-amrwbenc.xcframework"; sourceTree = "<group>"; };
+		444BA0E273DC10024CF989BC944DAABB /* giflib.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = giflib.xcframework; sourceTree = "<group>"; };
+		4768780ECBFA630D8746839AB33C74B6 /* FFPlayNAT_bundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = FFPlayNAT_bundle.bundle; path = FFPlayNAT_pod/Assets/FFPlayNAT_bundle.bundle; sourceTree = "<group>"; };
+		47B02BB27BB883F5FA65B526256B54C1 /* libogg.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = libogg.xcframework; sourceTree = "<group>"; };
+		570D34CDDC040614A5CC4D203AF1B23D /* libswresample.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = libswresample.xcframework; sourceTree = "<group>"; };
+		587C2019A6304E6CFF394ED804168003 /* libavcodec.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = libavcodec.xcframework; sourceTree = "<group>"; };
+		5EA399817415E9CF253316C9C35C53BE /* kvazaar.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = kvazaar.xcframework; sourceTree = "<group>"; };
+		604C630B7A2CC9BE25A1D66006021F8B /* mobile-ffmpeg-full.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "mobile-ffmpeg-full.debug.xcconfig"; sourceTree = "<group>"; };
+		64D2A7C2999EB670D76541221DF83D61 /* Pods_FFPlayNAT_pod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFPlayNAT_pod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65EF5D1CF004C9CC098BA427B61B9F23 /* Pods-FFPlayNAT_pod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FFPlayNAT_pod_Example.modulemap"; sourceTree = "<group>"; };
+		662F9CDE50B76105C6705CA633E59461 /* libavfilter.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = libavfilter.xcframework; sourceTree = "<group>"; };
+		6D23DC2D88223A3C95B112B3DC0A65E9 /* libtheora.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = libtheora.xcframework; sourceTree = "<group>"; };
+		6D7884B35047E6E973D825BCBAD6EADC /* libavformat.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = libavformat.xcframework; sourceTree = "<group>"; };
+		70E7CC4717A29346ACFC520A3F25844E /* tiff.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = tiff.xcframework; sourceTree = "<group>"; };
+		7162B9F45AE0F721133D0F3B2F72D8F7 /* snappy.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = snappy.xcframework; sourceTree = "<group>"; };
+		71B52FB01FB9D257F8CE3191072819E7 /* Pods-FFPlayNAT_pod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FFPlayNAT_pod_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		72217D13BB7CD022BC9EC2E4C682A424 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7A603556C00A6B345582B016FFB8AF51 /* libilbc.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = libilbc.xcframework; sourceTree = "<group>"; };
+		7CE04EEBEF5FFF0DFE136CCC2723820A /* libxml2.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = libxml2.xcframework; sourceTree = "<group>"; };
+		7F7382C28243A361776A547ABC112C31 /* mobileffmpeg.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = mobileffmpeg.xcframework; sourceTree = "<group>"; };
+		826EF12E7F762CE16FB06E397545F2C4 /* Pods-FFPlayNAT_pod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FFPlayNAT_pod_Tests.modulemap"; sourceTree = "<group>"; };
+		8630AF7C354C6A54C7BF137AEFE2D4CD /* Pods-FFPlayNAT_pod_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FFPlayNAT_pod_Tests-Info.plist"; sourceTree = "<group>"; };
+		87D8D13D5BA6044862E66BCD79B64F14 /* libwebpmux.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = libwebpmux.xcframework; sourceTree = "<group>"; };
+		8B26F268D367C28A9A883E0D32A53DA6 /* lame.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = lame.xcframework; sourceTree = "<group>"; };
+		8EEE9B067985CD67A79806E36E0A647E /* libvorbisenc.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = libvorbisenc.xcframework; sourceTree = "<group>"; };
+		943FCD5015380FE7CD9902C9A15B99F1 /* wavpack.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = wavpack.xcframework; sourceTree = "<group>"; };
+		957AFF8A02508DDA371592ADE7FFF93A /* Pods-FFPlayNAT_pod_Example-artifacts-Debug-output-files.xcfilelist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcfilelist; path = "Pods-FFPlayNAT_pod_Example-artifacts-Debug-output-files.xcfilelist"; sourceTree = "<group>"; };
+		95F21B7623E65BB6BF6657B84179CC5E /* ResourceBundle-FFPlayNAT_pod-FFPlayNAT_pod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FFPlayNAT_pod-FFPlayNAT_pod-Info.plist"; sourceTree = "<group>"; };
+		9845B3B6E8D92FC952421C2BB03C90C9 /* libtheoradec.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = libtheoradec.xcframework; sourceTree = "<group>"; };
+		99AEC2F024E092B49A4EACBB948E7DE8 /* Pods-FFPlayNAT_pod_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FFPlayNAT_pod_Example-dummy.m"; sourceTree = "<group>"; };
+		9C7BD1562AF72C05B67EC2E3A63E7FA4 /* twolame.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = twolame.xcframework; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EA7E0B8A20F914838C53E78FCD7BE20 /* gnutls.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = gnutls.xcframework; sourceTree = "<group>"; };
+		9FB67EA17A2945F43E33205D2EB9476C /* libpng.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = libpng.xcframework; sourceTree = "<group>"; };
+		A02AACA269BC2538EF01FAC7CD464895 /* Pods-FFPlayNAT_pod_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FFPlayNAT_pod_Example-Info.plist"; sourceTree = "<group>"; };
+		A038D7C614F9905749DEF5F7F05FD04C /* libwebp.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = libwebp.xcframework; sourceTree = "<group>"; };
+		A32662A9D8497F9C36BA90455721BA39 /* Pods-FFPlayNAT_pod_Example-artifacts-Release-input-files.xcfilelist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcfilelist; path = "Pods-FFPlayNAT_pod_Example-artifacts-Release-input-files.xcfilelist"; sourceTree = "<group>"; };
+		A38ED164929DA0D781CB7D357514C85A /* libaom.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = libaom.xcframework; sourceTree = "<group>"; };
+		A50FA9EECE365584768367EFC32D2FD2 /* opus.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = opus.xcframework; sourceTree = "<group>"; };
+		A887DBA4E835CE7847B2A82E7A5292E6 /* Pods-FFPlayNAT_pod_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FFPlayNAT_pod_Example-umbrella.h"; sourceTree = "<group>"; };
+		AF30331512C461AAF989A76074ADC319 /* Pods_FFPlayNAT_pod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFPlayNAT_pod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC2DB161ACFA7CD07527A87D68C7E34 /* fribidi.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = fribidi.xcframework; sourceTree = "<group>"; };
+		B4AED21607384E68D0646C59E9B23392 /* Pods-FFPlayNAT_pod_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FFPlayNAT_pod_Example-resources.sh"; sourceTree = "<group>"; };
+		B7097349065486E6148A87F143237A38 /* shine.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = shine.xcframework; sourceTree = "<group>"; };
+		BA1F4214A3C3FF32994F844CB9BEF42A /* FFPlayNAT_pod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FFPlayNAT_pod.debug.xcconfig; sourceTree = "<group>"; };
+		BDAC8E1E9A8186D4D2D9E237EE2C2D7D /* speex.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = speex.xcframework; sourceTree = "<group>"; };
+		C6322C618940A0889BBFFCD7439AD61F /* FFPlayNAT_pod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FFPlayNAT_pod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CC778B2CC297C836A0E0DD215B47A7BB /* Pods-FFPlayNAT_pod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FFPlayNAT_pod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		CD14BFD07D20E6A206949AE3C1D856A1 /* Pods-FFPlayNAT_pod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FFPlayNAT_pod_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CE4E1B1C4B9AE493CF1363BE6C1D0081 /* jpeg.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = jpeg.xcframework; sourceTree = "<group>"; };
+		D261E50FF6D4FC79D5E0BD069DF87551 /* FFPlayNAT_pod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FFPlayNAT_pod.release.xcconfig; sourceTree = "<group>"; };
+		D2F7FEA4FC7FB49068BF3CE4E4410D3E /* FFPlayNat.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FFPlayNat.framework; path = FFPlayNAT_pod/Assets/FFPlayNat.framework; sourceTree = "<group>"; };
+		DAEE391F5AED697A05AB2BD91E4BF26F /* Pods-FFPlayNAT_pod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FFPlayNAT_pod_Tests-dummy.m"; sourceTree = "<group>"; };
+		E29A2B36385A94FDAE43A255A5AF78E5 /* Pods-FFPlayNAT_pod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FFPlayNAT_pod_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E316860BFFC9BB2C9713959C0707B60A /* Pods-FFPlayNAT_pod_Example-artifacts.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FFPlayNAT_pod_Example-artifacts.sh"; sourceTree = "<group>"; };
+		EA81BFF2BB8AE8A5A16326424E4AAD60 /* expat.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = expat.xcframework; sourceTree = "<group>"; };
+		F0919FCE766308E1184E1CCB66E13572 /* libswscale.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = libswscale.xcframework; sourceTree = "<group>"; };
+		F4AE62E4844025B09846660E8B8A5D47 /* Pods-FFPlayNAT_pod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FFPlayNAT_pod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F787E6B5CA52A08A00EE0BA6604B5D62 /* soxr.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = soxr.xcframework; sourceTree = "<group>"; };
+		F8A0DCACF03E60D83FCFDE6B682B0C81 /* mobile-ffmpeg-full.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "mobile-ffmpeg-full.release.xcconfig"; sourceTree = "<group>"; };
+		F920566A6AB9349BAAFEC3386CF3A5E2 /* Pods-FFPlayNAT_pod_Example-artifacts-Release-output-files.xcfilelist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcfilelist; path = "Pods-FFPlayNAT_pod_Example-artifacts-Release-output-files.xcfilelist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41028C3151AACEADB5D31FB7E2E1EB39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8025913157D5BD00358F96C46CC791B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		884BC443873570BEFE5F68EB51E24BDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00DDDC960A503EE287062AC93085E68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CFB1C3B6C2EBB37A021FBDB8BEA65E8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FC8708F56996CA3A254C24CC33BF08E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				54E2AFD727781A50D5E590EC92CBCC74 /* Pods-FFPlayNAT_pod_Example */,
+				961D677584DBA887CB033D7D23C8DCEC /* Pods-FFPlayNAT_pod_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1FD94A5B862012ED7D43DF4E00C56CF8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C6322C618940A0889BBFFCD7439AD61F /* FFPlayNAT_pod.podspec */,
+				4180DFBF6D0624F47B29DEFC5CFA677D /* LICENSE */,
+				72217D13BB7CD022BC9EC2E4C682A424 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		33D748FB749902D6A2D846F0A0A182A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				240216EDD6FE32F9669DECDC990C2441 /* FFPlayNAT_pod.bundle */,
+				AF30331512C461AAF989A76074ADC319 /* Pods_FFPlayNAT_pod_Example.framework */,
+				64D2A7C2999EB670D76541221DF83D61 /* Pods_FFPlayNAT_pod_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47DC8E7174F80B1C1E3CD3E6F2B193F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F3F1B260D7BC64A767BE192E84433CC /* mobile-ffmpeg-full */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		54E2AFD727781A50D5E590EC92CBCC74 /* Pods-FFPlayNAT_pod_Example */ = {
+			isa = PBXGroup;
+			children = (
+				65EF5D1CF004C9CC098BA427B61B9F23 /* Pods-FFPlayNAT_pod_Example.modulemap */,
+				237F4818333B799968118C3F73536EB7 /* Pods-FFPlayNAT_pod_Example-acknowledgements.markdown */,
+				CC778B2CC297C836A0E0DD215B47A7BB /* Pods-FFPlayNAT_pod_Example-acknowledgements.plist */,
+				E316860BFFC9BB2C9713959C0707B60A /* Pods-FFPlayNAT_pod_Example-artifacts.sh */,
+				2AFFC729466BE10B118140CC90125596 /* Pods-FFPlayNAT_pod_Example-artifacts-Debug-input-files.xcfilelist */,
+				957AFF8A02508DDA371592ADE7FFF93A /* Pods-FFPlayNAT_pod_Example-artifacts-Debug-output-files.xcfilelist */,
+				A32662A9D8497F9C36BA90455721BA39 /* Pods-FFPlayNAT_pod_Example-artifacts-Release-input-files.xcfilelist */,
+				F920566A6AB9349BAAFEC3386CF3A5E2 /* Pods-FFPlayNAT_pod_Example-artifacts-Release-output-files.xcfilelist */,
+				99AEC2F024E092B49A4EACBB948E7DE8 /* Pods-FFPlayNAT_pod_Example-dummy.m */,
+				2F213E0DCFC12370A3F2A8367C47ABFE /* Pods-FFPlayNAT_pod_Example-frameworks.sh */,
+				A02AACA269BC2538EF01FAC7CD464895 /* Pods-FFPlayNAT_pod_Example-Info.plist */,
+				B4AED21607384E68D0646C59E9B23392 /* Pods-FFPlayNAT_pod_Example-resources.sh */,
+				A887DBA4E835CE7847B2A82E7A5292E6 /* Pods-FFPlayNAT_pod_Example-umbrella.h */,
+				16810CE09B636F1B002C18207D35EB49 /* Pods-FFPlayNAT_pod_Example.debug.xcconfig */,
+				E29A2B36385A94FDAE43A255A5AF78E5 /* Pods-FFPlayNAT_pod_Example.release.xcconfig */,
+			);
+			name = "Pods-FFPlayNAT_pod_Example";
+			path = "Target Support Files/Pods-FFPlayNAT_pod_Example";
+			sourceTree = "<group>";
+		};
+		5F3F1B260D7BC64A767BE192E84433CC /* mobile-ffmpeg-full */ = {
+			isa = PBXGroup;
+			children = (
+				D39343DEF541AE30A9951EEF1D5CD367 /* Frameworks */,
+				9CD3058D9A04BA8DFDFA5B2670E2E465 /* Support Files */,
+			);
+			path = "mobile-ffmpeg-full";
+			sourceTree = "<group>";
+		};
+		7349D5C8B6943029EFD2F02954F4FD95 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4768780ECBFA630D8746839AB33C74B6 /* FFPlayNAT_bundle.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		961D677584DBA887CB033D7D23C8DCEC /* Pods-FFPlayNAT_pod_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				826EF12E7F762CE16FB06E397545F2C4 /* Pods-FFPlayNAT_pod_Tests.modulemap */,
+				3CC8C89FC3D321D43B89D80C1A57DC86 /* Pods-FFPlayNAT_pod_Tests-acknowledgements.markdown */,
+				F4AE62E4844025B09846660E8B8A5D47 /* Pods-FFPlayNAT_pod_Tests-acknowledgements.plist */,
+				DAEE391F5AED697A05AB2BD91E4BF26F /* Pods-FFPlayNAT_pod_Tests-dummy.m */,
+				8630AF7C354C6A54C7BF137AEFE2D4CD /* Pods-FFPlayNAT_pod_Tests-Info.plist */,
+				CD14BFD07D20E6A206949AE3C1D856A1 /* Pods-FFPlayNAT_pod_Tests-umbrella.h */,
+				284B1448C72B7B3750CA32672452F855 /* Pods-FFPlayNAT_pod_Tests.debug.xcconfig */,
+				71B52FB01FB9D257F8CE3191072819E7 /* Pods-FFPlayNAT_pod_Tests.release.xcconfig */,
+			);
+			name = "Pods-FFPlayNAT_pod_Tests";
+			path = "Target Support Files/Pods-FFPlayNAT_pod_Tests";
+			sourceTree = "<group>";
+		};
+		9CD3058D9A04BA8DFDFA5B2670E2E465 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				604C630B7A2CC9BE25A1D66006021F8B /* mobile-ffmpeg-full.debug.xcconfig */,
+				F8A0DCACF03E60D83FCFDE6B682B0C81 /* mobile-ffmpeg-full.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/mobile-ffmpeg-full";
+			sourceTree = "<group>";
+		};
+		ADC23CE613BB88DB6D85E7120ACACE1E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA1F4214A3C3FF32994F844CB9BEF42A /* FFPlayNAT_pod.debug.xcconfig */,
+				D261E50FF6D4FC79D5E0BD069DF87551 /* FFPlayNAT_pod.release.xcconfig */,
+				95F21B7623E65BB6BF6657B84179CC5E /* ResourceBundle-FFPlayNAT_pod-FFPlayNAT_pod-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FFPlayNAT_pod";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CB10BFEDB03830010703D5720414D179 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2F7FEA4FC7FB49068BF3CE4E4410D3E /* FFPlayNat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				E494663C5A88388310A5178320058D36 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				47DC8E7174F80B1C1E3CD3E6F2B193F2 /* Pods */,
+				33D748FB749902D6A2D846F0A0A182A3 /* Products */,
+				1FC8708F56996CA3A254C24CC33BF08E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D39343DEF541AE30A9951EEF1D5CD367 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA81BFF2BB8AE8A5A16326424E4AAD60 /* expat.xcframework */,
+				0A9AC4CECDBC951581BC1834F088ACD6 /* fontconfig.xcframework */,
+				0539A244EEDEE835EE93D940D0712FC3 /* freetype.xcframework */,
+				AFC2DB161ACFA7CD07527A87D68C7E34 /* fribidi.xcframework */,
+				444BA0E273DC10024CF989BC944DAABB /* giflib.xcframework */,
+				0C0DA164AF30E1856F497BA7FBDAE4C6 /* gmp.xcframework */,
+				9EA7E0B8A20F914838C53E78FCD7BE20 /* gnutls.xcframework */,
+				CE4E1B1C4B9AE493CF1363BE6C1D0081 /* jpeg.xcframework */,
+				5EA399817415E9CF253316C9C35C53BE /* kvazaar.xcframework */,
+				8B26F268D367C28A9A883E0D32A53DA6 /* lame.xcframework */,
+				A38ED164929DA0D781CB7D357514C85A /* libaom.xcframework */,
+				155248E0F8AD70CF5F3CF581666E25AF /* libass.xcframework */,
+				587C2019A6304E6CFF394ED804168003 /* libavcodec.xcframework */,
+				3458E2F61FB9506C3A9FB93CA69E9F49 /* libavdevice.xcframework */,
+				662F9CDE50B76105C6705CA633E59461 /* libavfilter.xcframework */,
+				6D7884B35047E6E973D825BCBAD6EADC /* libavformat.xcframework */,
+				21FE5734DD79094B2B3CB9B222E3FB71 /* libavutil.xcframework */,
+				29B453BE7892E17A91240393DE58F07E /* libhogweed.xcframework */,
+				7A603556C00A6B345582B016FFB8AF51 /* libilbc.xcframework */,
+				1CA29A14588861F626E272BE1F4BE964 /* libnettle.xcframework */,
+				47B02BB27BB883F5FA65B526256B54C1 /* libogg.xcframework */,
+				261C725DDC9C2B20E52570C48DC166FB /* libopencore-amrnb.xcframework */,
+				9FB67EA17A2945F43E33205D2EB9476C /* libpng.xcframework */,
+				40D481F32CAC538B3E8AC26EBA81B915 /* libsndfile.xcframework */,
+				570D34CDDC040614A5CC4D203AF1B23D /* libswresample.xcframework */,
+				F0919FCE766308E1184E1CCB66E13572 /* libswscale.xcframework */,
+				6D23DC2D88223A3C95B112B3DC0A65E9 /* libtheora.xcframework */,
+				9845B3B6E8D92FC952421C2BB03C90C9 /* libtheoradec.xcframework */,
+				2F65F40BD615CBC204823931182A3E01 /* libtheoraenc.xcframework */,
+				2AD39D37E47780F79485989D484EBDD6 /* libvorbis.xcframework */,
+				8EEE9B067985CD67A79806E36E0A647E /* libvorbisenc.xcframework */,
+				3F42D5C191332C49F4428C05D24DB493 /* libvorbisfile.xcframework */,
+				3C2DC0499BFF48E847A34976576DB0DD /* libvpx.xcframework */,
+				A038D7C614F9905749DEF5F7F05FD04C /* libwebp.xcframework */,
+				16022083EF50406F0DB504346FACEAB6 /* libwebpdemux.xcframework */,
+				87D8D13D5BA6044862E66BCD79B64F14 /* libwebpmux.xcframework */,
+				7CE04EEBEF5FFF0DFE136CCC2723820A /* libxml2.xcframework */,
+				7F7382C28243A361776A547ABC112C31 /* mobileffmpeg.xcframework */,
+				A50FA9EECE365584768367EFC32D2FD2 /* opus.xcframework */,
+				B7097349065486E6148A87F143237A38 /* shine.xcframework */,
+				7162B9F45AE0F721133D0F3B2F72D8F7 /* snappy.xcframework */,
+				F787E6B5CA52A08A00EE0BA6604B5D62 /* soxr.xcframework */,
+				BDAC8E1E9A8186D4D2D9E237EE2C2D7D /* speex.xcframework */,
+				70E7CC4717A29346ACFC520A3F25844E /* tiff.xcframework */,
+				9C7BD1562AF72C05B67EC2E3A63E7FA4 /* twolame.xcframework */,
+				42E7A7594397FF70315C5CDC7546F14B /* vo-amrwbenc.xcframework */,
+				943FCD5015380FE7CD9902C9A15B99F1 /* wavpack.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E494663C5A88388310A5178320058D36 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB28996BB30904F4513A9DA477744858 /* FFPlayNAT_pod */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		EB28996BB30904F4513A9DA477744858 /* FFPlayNAT_pod */ = {
+			isa = PBXGroup;
+			children = (
+				CB10BFEDB03830010703D5720414D179 /* Frameworks */,
+				1FD94A5B862012ED7D43DF4E00C56CF8 /* Pod */,
+				7349D5C8B6943029EFD2F02954F4FD95 /* Resources */,
+				ADC23CE613BB88DB6D85E7120ACACE1E /* Support Files */,
+			);
+			name = FFPlayNAT_pod;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5AAEBDBAAA8C33C242A61D2E81A1FB96 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D683F57BD62A38FD378F833407CE56E6 /* Pods-FFPlayNAT_pod_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF7FFFE3FC4565FAD4A95DFCB4E1DF61 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08BB5F79165A3E5E035DE83D6C8A5D7A /* Pods-FFPlayNAT_pod_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		86EE377E60AE1ADCEE4DA076D4A4D5B7 /* Pods-FFPlayNAT_pod_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8E5E3264CA2B1B2D2E6C92B31BC9C58 /* Build configuration list for PBXNativeTarget "Pods-FFPlayNAT_pod_Tests" */;
+			buildPhases = (
+				5AAEBDBAAA8C33C242A61D2E81A1FB96 /* Headers */,
+				7EEB2C8D3C4FDC57C18E80C95960F0DC /* Sources */,
+				A00DDDC960A503EE287062AC93085E68 /* Frameworks */,
+				6382D63A283B043D656A3B489C6F1468 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D5B9D5A51CD733621DBCEF0CAA57213 /* PBXTargetDependency */,
+			);
+			name = "Pods-FFPlayNAT_pod_Tests";
+			productName = "Pods-FFPlayNAT_pod_Tests";
+			productReference = 64D2A7C2999EB670D76541221DF83D61 /* Pods_FFPlayNAT_pod_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AAF1B12978712129FCE2CC1028CB5C1B /* FFPlayNAT_pod-FFPlayNAT_pod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64F037665075EFADA1374FFBE6D512E9 /* Build configuration list for PBXNativeTarget "FFPlayNAT_pod-FFPlayNAT_pod" */;
+			buildPhases = (
+				78EA5F4E97ECF7A706434B321BD9C3DF /* Sources */,
+				884BC443873570BEFE5F68EB51E24BDA /* Frameworks */,
+				2BFDD2B10246408314EB080E93E0BBF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FFPlayNAT_pod-FFPlayNAT_pod";
+			productName = "FFPlayNAT_pod-FFPlayNAT_pod";
+			productReference = 240216EDD6FE32F9669DECDC990C2441 /* FFPlayNAT_pod.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		F7210E7FBBD303166D3E6BD1DE5495DF /* Pods-FFPlayNAT_pod_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA5BEEC87D8F7E92B41653964F56298E /* Build configuration list for PBXNativeTarget "Pods-FFPlayNAT_pod_Example" */;
+			buildPhases = (
+				AF7FFFE3FC4565FAD4A95DFCB4E1DF61 /* Headers */,
+				2E4235086BCFA5EF9947424EE1221889 /* Sources */,
+				41028C3151AACEADB5D31FB7E2E1EB39 /* Frameworks */,
+				DF10F95D7CCBA9BD7A796539B56EA80F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27B9E20CD46A9254F7F44870F8A2B9CF /* PBXTargetDependency */,
+				6E6ABD2A790D8D6F6865932C70AD8018 /* PBXTargetDependency */,
+			);
+			name = "Pods-FFPlayNAT_pod_Example";
+			productName = "Pods-FFPlayNAT_pod_Example";
+			productReference = AF30331512C461AAF989A76074ADC319 /* Pods_FFPlayNAT_pod_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1160;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 33D748FB749902D6A2D846F0A0A182A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B618906479AA26AE21A655F81ED2750 /* FFPlayNAT_pod */,
+				AAF1B12978712129FCE2CC1028CB5C1B /* FFPlayNAT_pod-FFPlayNAT_pod */,
+				A4CF1A2B7EFA48AA7D1DFC45FA6B1E5C /* mobile-ffmpeg-full */,
+				F7210E7FBBD303166D3E6BD1DE5495DF /* Pods-FFPlayNAT_pod_Example */,
+				86EE377E60AE1ADCEE4DA076D4A4D5B7 /* Pods-FFPlayNAT_pod_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BFDD2B10246408314EB080E93E0BBF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E025B89D97FA309BAB71071D6858A353 /* FFPlayNAT_bundle.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6382D63A283B043D656A3B489C6F1468 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF10F95D7CCBA9BD7A796539B56EA80F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E4235086BCFA5EF9947424EE1221889 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9C93D4361C1CC33552301EC11F1772E /* Pods-FFPlayNAT_pod_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78EA5F4E97ECF7A706434B321BD9C3DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EEB2C8D3C4FDC57C18E80C95960F0DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57AA52D15CBE6EFC0A1044D15DFED66D /* Pods-FFPlayNAT_pod_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27B9E20CD46A9254F7F44870F8A2B9CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FFPlayNAT_pod;
+			target = 7B618906479AA26AE21A655F81ED2750 /* FFPlayNAT_pod */;
+			targetProxy = 172097E7549BAB3A656080477DF39087 /* PBXContainerItemProxy */;
+		};
+		4D5B9D5A51CD733621DBCEF0CAA57213 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FFPlayNAT_pod_Example";
+			target = F7210E7FBBD303166D3E6BD1DE5495DF /* Pods-FFPlayNAT_pod_Example */;
+			targetProxy = 6B530C12E406BE5171E25F012C837F56 /* PBXContainerItemProxy */;
+		};
+		5A3A5C6CAADA19389B815DBF30762CE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "mobile-ffmpeg-full";
+			target = A4CF1A2B7EFA48AA7D1DFC45FA6B1E5C /* mobile-ffmpeg-full */;
+			targetProxy = CCE4034CDFA42351F73E4CAF2E33DAB7 /* PBXContainerItemProxy */;
+		};
+		6E6ABD2A790D8D6F6865932C70AD8018 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "mobile-ffmpeg-full";
+			target = A4CF1A2B7EFA48AA7D1DFC45FA6B1E5C /* mobile-ffmpeg-full */;
+			targetProxy = 43EEDF4F697ACE9ACACA6ABBFF0498EA /* PBXContainerItemProxy */;
+		};
+		B6A1BA2AEE7271805BE95C016C2AB67B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "FFPlayNAT_pod-FFPlayNAT_pod";
+			target = AAF1B12978712129FCE2CC1028CB5C1B /* FFPlayNAT_pod-FFPlayNAT_pod */;
+			targetProxy = 48AE1B795EBB77EA7983761EA9FF4DD8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3C73BDAC02BF6A4D61D6D97D384D8842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5259B7134C7ADFDE08963CFA9285A21B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D261E50FF6D4FC79D5E0BD069DF87551 /* FFPlayNAT_pod.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FFPlayNAT_pod";
+				IBSC_MODULE = FFPlayNAT_pod;
+				INFOPLIST_FILE = "Target Support Files/FFPlayNAT_pod/ResourceBundle-FFPlayNAT_pod-FFPlayNAT_pod-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				PRODUCT_NAME = FFPlayNAT_pod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		53681EBF914B3D0A19946F083849F888 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA1F4214A3C3FF32994F844CB9BEF42A /* FFPlayNAT_pod.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FFPlayNAT_pod";
+				IBSC_MODULE = FFPlayNAT_pod;
+				INFOPLIST_FILE = "Target Support Files/FFPlayNAT_pod/ResourceBundle-FFPlayNAT_pod-FFPlayNAT_pod-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				PRODUCT_NAME = FFPlayNAT_pod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		5482AD9075CBEBFF4A42A1BA292E2B61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16810CE09B636F1B002C18207D35EB49 /* Pods-FFPlayNAT_pod_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FFPlayNAT_pod_Example/Pods-FFPlayNAT_pod_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FFPlayNAT_pod_Example/Pods-FFPlayNAT_pod_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		595054147F5BD17D39962B203F010611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8A0DCACF03E60D83FCFDE6B682B0C81 /* mobile-ffmpeg-full.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F005AEE0F3B10589E273E0F6B2FD556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71B52FB01FB9D257F8CE3191072819E7 /* Pods-FFPlayNAT_pod_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FFPlayNAT_pod_Tests/Pods-FFPlayNAT_pod_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FFPlayNAT_pod_Tests/Pods-FFPlayNAT_pod_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A371CFC682730FFDDA9B7B6E33FD9081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA1F4214A3C3FF32994F844CB9BEF42A /* FFPlayNAT_pod.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7396A4EDA24EAB9C6CC859729D0D094 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E29A2B36385A94FDAE43A255A5AF78E5 /* Pods-FFPlayNAT_pod_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FFPlayNAT_pod_Example/Pods-FFPlayNAT_pod_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FFPlayNAT_pod_Example/Pods-FFPlayNAT_pod_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AB09B621ED251839D4FA17E44F361111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B30C321065E9B99ECAC7C9570A243D12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 284B1448C72B7B3750CA32672452F855 /* Pods-FFPlayNAT_pod_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FFPlayNAT_pod_Tests/Pods-FFPlayNAT_pod_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FFPlayNAT_pod_Tests/Pods-FFPlayNAT_pod_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C42D04BF9B897A446961692EFEA48655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D261E50FF6D4FC79D5E0BD069DF87551 /* FFPlayNAT_pod.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE5F22C75E7111AC5B3D92B61AD6D76D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 604C630B7A2CC9BE25A1D66006021F8B /* mobile-ffmpeg-full.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		440CACFDBBE76A740CCE51E6F82F4D73 /* Build configuration list for PBXAggregateTarget "FFPlayNAT_pod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A371CFC682730FFDDA9B7B6E33FD9081 /* Debug */,
+				C42D04BF9B897A446961692EFEA48655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB09B621ED251839D4FA17E44F361111 /* Debug */,
+				3C73BDAC02BF6A4D61D6D97D384D8842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64F037665075EFADA1374FFBE6D512E9 /* Build configuration list for PBXNativeTarget "FFPlayNAT_pod-FFPlayNAT_pod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53681EBF914B3D0A19946F083849F888 /* Debug */,
+				5259B7134C7ADFDE08963CFA9285A21B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F731C85EEB3819F70788A4850F3B9FC /* Build configuration list for PBXAggregateTarget "mobile-ffmpeg-full" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE5F22C75E7111AC5B3D92B61AD6D76D /* Debug */,
+				595054147F5BD17D39962B203F010611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA5BEEC87D8F7E92B41653964F56298E /* Build configuration list for PBXNativeTarget "Pods-FFPlayNAT_pod_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5482AD9075CBEBFF4A42A1BA292E2B61 /* Debug */,
+				A7396A4EDA24EAB9C6CC859729D0D094 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8E5E3264CA2B1B2D2E6C92B31BC9C58 /* Build configuration list for PBXNativeTarget "Pods-FFPlayNAT_pod_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B30C321065E9B99ECAC7C9570A243D12 /* Debug */,
+				9F005AEE0F3B10589E273E0F6B2FD556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
