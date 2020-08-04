@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'FFPlayNAT_pod_Example' do
+  pod 'FFPlayNAT_pod', :path => '../'
+
+  target 'FFPlayNAT_pod_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
